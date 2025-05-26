@@ -28,7 +28,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/locksmith-davenport-logo-dark.png" alt="Davenport Locksmith Logo" width={250} height={60} priority/>
+          <Image src="/locksmith-davenport-logo-light.png" alt="Davenport Locksmith Logo" width={250} height={60} priority/>
         </Link>
 
         {/* Desktop Navigation */}
