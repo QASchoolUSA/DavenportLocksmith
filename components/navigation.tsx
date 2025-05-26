@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, Phone, KeyRound } from "lucide-react"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 const navigationItems = [
   { name: "Home", href: "/" },
@@ -27,8 +28,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <KeyRound className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">SecureLock Pro</span>
+          <Image src="/davenport-locksmith-logo-dark.png" alt="Davenport Locksmith Logo" width={250} height={60} priority/>
         </Link>
 
         {/* Desktop Navigation */}
