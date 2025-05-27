@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { KeyRound, Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,10 +10,9 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <KeyRound className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold">SecureLock Pro</span>
-              </div>
+              <Link href="/" className="flex items-center space-x-2">
+                <Image src="/locksmith-davenport-logo-light.png" alt="Davenport Locksmith Logo" width={270} height={60} priority />
+              </Link>
               <p className="text-sm text-muted-foreground">
                 Professional locksmith services with 24/7 emergency support. Licensed, insured, and trusted by thousands
                 of customers.
@@ -57,7 +57,7 @@ export function Footer() {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center space-x-2">
                   <Phone className="h-4 w-4 text-primary" />
-                  <span className="text-muted-foreground">(555) 123-4567</span>
+                  <span className="text-muted-foreground">(407) 569-8369</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <Mail className="h-4 w-4 text-primary" />

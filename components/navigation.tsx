@@ -28,7 +28,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/locksmith-davenport-logo-light.png" alt="Davenport Locksmith Logo" width={250} height={60} priority/>
+          <Image src="/locksmith-davenport-logo-light.png" alt="Davenport Locksmith Logo" width={270} height={60} priority/>
         </Link>
 
         {/* Desktop Navigation */}
@@ -50,7 +50,7 @@ export function Navigation() {
         {/* Call Button & Mobile Menu */}
         <div className="flex items-center space-x-4">
           <Button asChild className="hidden sm:inline-flex">
-            <Link href="tel:+1234567890">
+            <Link href="tel:+14075698369">
               <Phone className="mr-2 h-4 w-4" />
               Call Now
             </Link>
@@ -80,7 +80,7 @@ export function Navigation() {
                   </Link>
                 ))}
                 <Button asChild className="mt-4">
-                  <Link href="tel:+1234567890">
+                  <Link href="tel:+14075698369">
                     <Phone className="mr-2 h-4 w-4" />
                     Call Now
                   </Link>

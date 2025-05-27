@@ -134,7 +134,7 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-primary mt-1" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
+                    <p className="text-muted-foreground">(407) 569-8369</p>
                     <p className="text-sm text-muted-foreground">24/7 Emergency Line</p>
                   </div>
                 </div>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                   arrival times of 15-30 minutes.
                 </p>
                 <Button className="w-full" size="lg" asChild>
-                  <a href="tel:+1234567890">
+                  <a href="tel:+14075698369">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Emergency Line
                   </a>

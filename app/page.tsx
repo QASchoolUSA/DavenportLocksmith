@@ -36,7 +36,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
-                  <Link href="tel:+1234567890">
+                  <Link href="tel:+14075698369">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now for Emergency Service
                   </Link>
@@ -228,12 +228,12 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="tel:+1234567890">
+                <Link href="tel:+14075698369">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call (555) 123-4567
+                  Call (407) 569-8369
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild>
+              <Button size="lg" variant="secondary" asChild>
                 <Link href="/contact">Get Free Estimate</Link>
               </Button>
             </div>
